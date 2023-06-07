@@ -23,3 +23,5 @@ function checkDV(t) {
 function chileanRutVerifier(rut) {
   readRut(rut);
 }
+
+module.exports = chileanRutVerifier
