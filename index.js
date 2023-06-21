@@ -1,5 +1,5 @@
 function readRut(rut) {
-  let x = rut.value.replace('.', '').replace('.', '').replace('-', '')
+  let x = rut.replace('.', '').replace('.', '').replace('-', '')
   if (rut.value == "") {
     return false;
   } else {
@@ -23,5 +23,3 @@ function checkDV(t) {
 function chileanRutVerifier(rut) {
   readRut(rut);
 }
-
-module.exports = chileanRutVerifier
